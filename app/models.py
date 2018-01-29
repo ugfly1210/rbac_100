@@ -9,6 +9,8 @@ class User(models.Model):
     username = models.CharField(max_length=32,verbose_name='用户名')
     password = models.CharField(max_length=32,verbose_name='密码')
     role = models.ManyToManyField(to='Role',verbose_name='与角色多对多绑定')
+    def __str__(self):
+        return self.username
 
 
 class Role(models.Model):
@@ -17,7 +19,8 @@ class Role(models.Model):
     """
     name = models.CharField(max_length=32,verbose_name='角色名称')
     permission = models.ManyToManyField(to='Permission',verbose_name='与权限多对多绑定')
-
+    def __str__(self):
+        return  self.name
 
 class Permission(models.Model):
     """
@@ -27,9 +30,10 @@ class Permission(models.Model):
     url = models.CharField(max_length=32,verbose_name='权限对应路径')
     code = models.CharField(max_length=32,verbose_name='权限别称')
 
-    menu_group = models.ForeignKey(to='Permission',verbose_name='所属菜单组',related_name='iloveu')
-    permission_group = models.ForeignKey(to='PermissionGroup',verbose_name='所属权限组')
-
+    menu_group = models.ForeignKey(to='Permission',verbose_name='所属菜单组',related_name='iloveu',default=None,null=True)
+    permission_group = models.ForeignKey(to='PermissionGroup',verbose_name='所属权限组',)
+    def __str__(self):
+        return self.name
 
 class PermissionGroup(models.Model):
     """
@@ -37,7 +41,8 @@ class PermissionGroup(models.Model):
     """
     name = models.CharField(max_length=32,verbose_name='权限组名称')
     menu = models.ForeignKey(to='Menu',verbose_name='当前权限分组所属菜单')
-
+    def __str__(self):
+        return self.name
 
 class Menu(models.Model):
     """
@@ -56,7 +61,8 @@ class Menu(models.Model):
         对，就按照这个路子来。人间正道就是野路子。
     """
     name = models.CharField(max_length=32,verbose_name='菜单名称')
-
+    def __str__(self):
+        return self.name
 
 """
 menu_list = [
