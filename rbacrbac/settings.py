@@ -119,6 +119,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+############RBAC   工厂模式   www.baidu.com   /   www.google.com.hk
+PERMISSION_URL_KEY = 'ugfly'
+PERMISSION_MENU_KEY = '1210'
+
+
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static')
