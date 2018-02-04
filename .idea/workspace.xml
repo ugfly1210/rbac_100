@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="557a7f69-e82c-4a70-b3d1-b392729353a9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/ff2a3d80-20ca-46c0-a8fc-23ca704f6537.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata_i.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/c9e40610-e451-4990-a8ad-da6f86a66b15/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rbacrbac/settings.py" afterPath="$PROJECT_DIR$/rbacrbac/settings.py" />
-    </list>
+    <list default="true" id="557a7f69-e82c-4a70-b3d1-b392729353a9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/app/middlewares/rbac.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1042">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -804,7 +792,7 @@
     <entry file="file://$PROJECT_DIR$/app/middlewares/rbac.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1042">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
