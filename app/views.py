@@ -62,4 +62,9 @@ def login(request):
         return render(request,'login.html',{'msg':'username or password Error!'})
 
 def index(request):
+    """
+    到达index页面后，需要干什么呢？你需要把东西先展示出来。判断一下白名单。
+    :param request:
+    :return:
+    """
     return HttpResponse(666)

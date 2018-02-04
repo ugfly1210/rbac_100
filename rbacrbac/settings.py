@@ -48,6 +48,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'app.middlewares.rbac.RbacMiddleware',
+
 ]
 
 ROOT_URLCONF = 'rbacrbac.urls'
@@ -129,3 +131,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static')
 )
 
+
+WHITE_URLS=[
+    '/login/',
+    '/index/',
+]
